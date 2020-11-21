@@ -29,7 +29,7 @@
         "url":"https://github.com/Wahid-Mujawar/wahid",
         "className":"fa fa-github"
       },
-      {
+       {
         "name":"skype",
         "url":"http://skype.com",
         "className":"fa fa-skype"
@@ -42,12 +42,12 @@
       {
         "school":"Maratha Mandal Engineering College Belagavi",
         "degree":"Bachelor of Engineering",
-        "graduated":"September 2020",
+        "graduated":"September 2020"
       },
       {
         "school":"Govindram Seksaria Science College Belagavi",
         "degree":"PUC 1/2",
-        "graduated":"June 201a6",
+        "graduated":"June 2016",
         "description":"Completed my higher secondary schooling in Science. Major subjects opted were Physics, Chemistry, Maths & Biology."
       },
 
@@ -118,7 +118,7 @@
       }
     ]
   },
-  "portfolio":{
+  "project":{
     "projects": [
       {
         "title":"Canadian Wanderlust",

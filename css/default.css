@@ -61,6 +61,7 @@ time, mark, audio, video {
 article,aside,details,figcaption,figure,
 footer,header,hgroup,menu,nav,section {
    display: block;
+   background-color:rgb(255, 255, 255);
 }
 
 audio,
@@ -163,19 +164,21 @@ h1, h2, h3, h4, h5, h6 {
    font-weight: normal;
 }
 h1 a, h2 a, h3 a, h4 a, h5 a, h6 a { font-weight: inherit; }
-h1 { color: #11ABB0; font-size: 25px; line-height: 42px; margin-bottom: 12px; letter-spacing: -1px; }
-h2 { color: #11ABB0 font-size: 5px; line-height: 36px; margin-bottom: 6px; }
+h1 { color: #474343; font-size: 25px; line-height: 42px; margin-bottom: 12px; letter-spacing: -1px; }
+h2 { color: #000000; font-size: 25px; line-height: 36px; margin-bottom: 6px; }
 h3 { font-size: 22px; line-height: 30px; margin-bottom: 12px; }
 h4 { font-size: 20px; line-height: 30px; margin-bottom: 6px; }
 h5 { font-size: 18px; line-height: 30px; }
 h6 { font-size: 14px; line-height: 30px; }
 .subheader { }
 
-p { margin: 0 0 30px 0; }
+p { margin: 0 0 30px 0; font-weight: 1000; font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;color: #252424; background-color: ;}
 p img { margin: 0; }
-p.lead {
-   font: 19px/36px 'opensans-light', sans-serif;
-   margin-bottom: 18px;
+p.lead  {
+font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+font-weight: bolder;
+margin-bottom: 18px;
+margin-right: 200px;
 }
 
 /* for 'em' and 'strong' tags, font-size and line-height should be same with
@@ -596,6 +599,8 @@ input[type="checkbox"] { display: inline; }
    width: 96%;
    max-width: 1020px;
    margin: 0 auto;
+   /* border-bottom: 1px solid #E8E8E8; */
+
 }
 /* fixed width for IE8 */
 .ie .row { width: 1000px ; }
@@ -630,7 +635,7 @@ input[type="checkbox"] { display: inline; }
 .row.collapsed > .columns,
 .column.collapsed, .columns.collapsed  { padding: 0; }
 
-[class*="column"] + [class*="column"]:last-child { float: right; }
+[class*="column"] + [class*="column"]:alast-child { float: right; }
 [class*="column"] + [class*="column"].end { float: right; }
 
 /* column widths */

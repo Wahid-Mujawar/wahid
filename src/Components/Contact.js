@@ -27,7 +27,9 @@ class Contact extends Component {
 
             <div className="ten columns">
 
-                  <p className="lead">{message}</p>
+                  <p className="lead"></p>
+                  Feel free to contact no restrictions. Availabe on the receiver side anytime
+                  
 
             </div>
 
@@ -77,7 +79,7 @@ class Contact extends Component {
            </div>
 
 
-            <center className="four columns footer-widgets">
+            <p className="four columns footer-widgets">
                <div className="widget widget_contact">
 
 					   <h4>Address and Phone</h4>
@@ -110,7 +112,7 @@ class Contact extends Component {
                      </li>
                   </ul>
 		         </div> */}
-            </center>
+            </p>
       </div>
    </section>
     );

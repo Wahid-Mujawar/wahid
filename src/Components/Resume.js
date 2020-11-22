@@ -9,20 +9,22 @@ class Resume extends Component {
       {
         "school":"Maratha Mandal Engineering College Belagavi",
         "degree":"Bachelor of Engineering",
-        "graduated":"September 2020",
+        "graduated":"August 2016- September 2020",
+        "description":"Studied C and C++ languages,Microprocessor,Algorithm design,Java,J2EE and Web technologies like HTML,PHP,CSS One day workshop on PCB circuits and boards Activities:Played inter-departement Football tournament and won for the CS Dept in 2019 and have been part of college Fest(OJAS) for 2017,2018,2019."
       },
+
       {
         "school":"Govindram Seksaria Science College Belagavi",
         "degree":"PUC 1/2",
-        "graduated":"June 2016",
+        "graduated":"July 2014 - June 2016",
         "description":"Completed my higher secondary schooling in Science. Major subjects opted were Physics, Chemistry, Maths & Biology."
       },
   
       {
-        "school":"Swami Vivekanand English Medium High School Khanapur",
+        "school":"Swami Vivekanand English Medium High School Khanapur Belagavi",
         "degree":"High School",
-        "graduated":"June 2014",
-        "description":"Completed my schooling in following subjects English, Science, Maths, Hindi, Kannada, Social Studies."
+        "graduated":" June 2004 - June 2014",
+        "description":"Completed my schooling in following subjects English, Science, Maths, Hindi, Kannada, Social Studies. Major achievements apart form studies were winning the General Championship (Thrice).Represented school at District Level Soprts for track and field events."
       }
   
     ]

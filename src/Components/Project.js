@@ -11,7 +11,7 @@ class Project extends Component {
       {
         "title":"Feedback System",
         "year":"November 2018",
-        "description":"We have developed a stand alone software application, used to maintain the feedback record "
+        "description":"We have developed a stand alone software application, used to maintain the feedback record for staff "
         
       },
 
@@ -24,13 +24,13 @@ class Project extends Component {
       {
         "title":"e-governance",
         "year":"November 2019",
-        "description":"We have develop  software application for e-Governance system to keep track of the ongoing projects using front end as HTML, Javascript and PHP as the backend"
+        "description":"We have develop  software application for e-Governance system to keep track of the ongoing projects using front end as HTML, Javascript and PHP as the backend."
       },
 
       {
         "title":"Cashew Grade Checker Using Arduino and Load Cell",
         "year":"September 2020",
-        "description":"To design and develop an IoT based Cashew Grade Checker using Arduino and Load Cell to check whether the Grading process is done properly or not"
+        "description":"To design and develop an IoT based Cashew Grade Checker using Arduino and Load Cell to check whether the Grading process is done properly or not."
       }
     ]
   }

@@ -84,10 +84,12 @@ class Contact extends Component {
 
 					   <h4>Address and Phone</h4>
 					   <p className="address">
-						   {name}<br />
-						   {street} <br />
-						   {city}, {state} {zip}<br />
-						   <span>{phone}</span>
+						   AbdulWahid Mujawar<br />
+						   Masajid Galli Halasi (591120)< br /> 
+                     Tq-Khanapur
+                     Dist-Belagavi <br />
+						   Belagavi  Karnataka (590001)<br />
+						   <span>8088686729 </span>
 					   </p>
 				   </div>
 {/* 

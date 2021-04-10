@@ -56,9 +56,10 @@ header .banner {
    text-align: center;
 }
 
+
 header .banner-text { width: 100%; }
 header .banner-text h1 {
-   font: 90px/1.1em 'opensans-bold', sans-serif;
+   font: 50px/1.1em 'opensans-bold', sans-serif;
    color: #fff;
    letter-spacing: -2px;
    margin: 0 auto 18px auto;
@@ -257,7 +258,7 @@ ul#nav li.current a { color: #F06000; }
    padding-bottom: 6px;
 }
 #resume h3 {
-   font: 25px/30px 'opensans-bold', sans-serif;
+   font: 25px/30px, sans-serif;
 }
 
 #resume .header-col { padding-top: 9px; }
@@ -283,7 +284,16 @@ ul#nav li.current a { color: #F06000; }
    font: 15px/24px 'opensans-regular', sans-serif;
    margin-top: 6px;
 }
+#project h1 span {
+   border-bottom: 3px solid #11ABB0;
+   padding-bottom: 6px;
+}
 
+#project h1 {
+   font: 18px/24px 'opensans-bold', sans-serif;
+   text-transform: uppercase;
+   letter-spacing: 1px;
+}
 /*----------------------------------------------*/
 /*	Skill Bars
 /*----------------------------------------------*/
@@ -327,97 +337,6 @@ ul#nav li.current a { color: #F06000; }
    line-height: 42px;
    border-radius: 3px 0 0 3px;
 }
-/*
-.git {
-  	-moz-animation: git 2s ease;
-  	-webkit-animation: git 2s ease;
-}
-.illustrator {
-  	-moz-animation: illustrator 2s ease;
-  	-webkit-animation: illustrator 2s ease;
-}
-.reactjs {
-  	-moz-animation: reactjs 2s ease;
-  	-webkit-animation: reactjs 2s ease;
-}
-.css {
-  	-moz-animation: css 2s ease;
-  	-webkit-animation: css 2s ease;
-}
-.html5 {
-  	-moz-animation: html5 2s ease;
-  	-webkit-animation: html5 2s ease;
-}
-.vuejs {
-  	-moz-animation: vuejs 2s ease;
-  	-webkit-animation: vuejs 2s ease;
-}
-.mongodb {
-  	-moz-animation: mongodb 2s ease;
-  	-webkit-animation: mongodb 2s ease;
-}
-
-@-moz-keyframes git {
-  0%   { width: 0px;  }
-  100% { width: 60%;  }
-}
-@-moz-keyframes illustrator {
-  0%   { width: 0px;  }
-  100% { width: 55%;  }
-}
-@-moz-keyframes reactjs {
-  0%   { width: 0px;  }
-  100% { width: 50%;  }
-}
-@-moz-keyframes css {
-  0%   { width: 0px;  }
-  100% { width: 90%;  }
-}
-@-moz-keyframes html5 {
-  0%   { width: 0px;  }
-  100% { width: 80%;  }
-}
-@-moz-keyframes vuejs {
-  0%   { width: 0px;  }
-  100% { width: 50%;  }
-}
-@-moz-keyframes mongodb {
-  0%   { width: 0px;  }
-  100% { width: 80%;  }
-}
-
-@-webkit-keyframes photoshop {
-  0%   { width: 0px;  }
-  100% { width: 60%;  }
-}
-@-webkit-keyframes illustrator {
-  0%   { width: 0px;  }
-  100% { width: 55%;  }
-}
-@-webkit-keyframes reactjs {
-  0%   { width: 0px;  }
-  100% { width: 50%;  }
-}
-@-webkit-keyframes css {
-  0%   { width: 0px;  }
-  100% { width: 90%;  }
-}
-@-webkit-keyframes html5 {
-  0%   { width: 0px;  }
-  100% { width: 80%;  }
-}
-@-webkit-keyframes vuejs {
-  0%   { width: 0px;  }
-  100% { width: 50%;  }
-}
-@-webkit-keyframes mongodb {
-  0%   { width: 0px;  }
-  100% { width: 80%;  }
-}  */
-
-/* ------------------------------------------------------------------ */
-/* e. ProjectSection
-/* ------------------------------------------------------------------ */
 
 #Project{
    background: #ebeeee;
@@ -659,8 +578,8 @@ call-to-action .button {
    overflow: hidden;
 }
 #testimonials .text-container {
-   padding-top: 96px;
-   padding-bottom: 66px;
+   padding-top: 36px;
+   padding-bottom: 0px;
 }
 #testimonials h1 {
    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
@@ -723,7 +642,7 @@ call-to-action .button {
 .flexslider {
    position: relative;
    zoom: 1;
-   margin: 0;
+   margin: 50px;
    padding: 0;
 }
 .flexslider .slides { zoom: 1; }
@@ -799,7 +718,7 @@ call-to-action .button {
 
 #contact {
    background: #ffffff;
-   padding-top: 96px;    border-bottom: 1px solid #E8E8E8;
+   padding-top: 10px;    border-bottom: 1px solid #E8E8E8;
    border-bottom: 1px solid #E8E8E8;
     border-bottom: 1px solid #E8E8E8;
     border-bottom: 1px solid #E8E8E8;
@@ -846,9 +765,11 @@ call-to-action .button {
    color: #000000;
    margin-bottom: 6px;
 }
-#contact p.lead {a
-   font: 23px/38px 'opensans-light', sans-serif;
-   padding-left: 3%; 
+#contact p.lead {
+   font:20px/25px, sans-serif;
+   padding-left: 3%;
+   margin-left: 60px;
+   margin-top: 80px;
 }
 #contact .header-col { padding-top: 6px; }
 

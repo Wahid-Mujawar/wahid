@@ -4,10 +4,6 @@ class Header extends Component {
   render() {
 
     if(this.props.data){
-      var name = this.props.data.name;
-      var occupation= this.props.data.occupation;
-      var description= this.props.data.description;
-      var city= this.props.data.address.city;
       var networks= this.props.data.social.map(function(network){
         return <li key={network.name}><a href=""><i className={network.className}></i></a></li>
       })
@@ -24,7 +20,7 @@ class Header extends Component {
          <ul id="nav" className="nav">
             <li className="current"><a className="smoothscroll" href="#home">Home</a></li>
             <li><a className="smoothscroll" href="#about">About</a></li>
-	         <li><a className="smoothscroll" href="#resume">Resume</a></li>
+	         <li><a className="smoothscroll" href="#resume">Education</a></li>
             <li><a className="smoothscroll" href="#project">Project</a></li>
             <li><a className="smoothscroll" href="#contact">Contact</a></li>
          </ul>
@@ -33,15 +29,13 @@ class Header extends Component {
 
       <div className="row banner">
          <div className="banner-text">
-            <h1 className="responsive-headline">AbdulWahid.</h1>
-            <h3>Completed one month internship program at Techify India Pvt Ltd on “Internet of Things” and “Web Development”. Hard working and good team’s member.</h3>
+            <h1 className="responsive-headline">AbdulWahid</h1>
+            <h3>Completed one month Internship program at Techify India Pvt Ltd on “Internet of Things” and “Web Development”</h3>
 
             <ul className="social">
             <li key="linkedin"><a href="https://www.linkedin.com/in/abdulwahid-mujawar-589b701ba/"><i className="fa fa-linkedin"></i></a></li>
             <li key="github"><a href="https://github.com/Wahid-Mujawar"><i className="fa fa-github"></i></a></li>
             <li key="skype"><a href="live:.cid.63e6bb13e8e5b19a"><i className="fa fa-skype"></i></a></li>
-
-
             </ul>
          </div>
       </div>

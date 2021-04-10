@@ -1,6 +1,4 @@
 import React, { Component } from 'react';
-import Resume from './Resume';
-// import Project from './project';
 
 class Project extends Component {
   render() {
@@ -37,7 +35,6 @@ class Project extends Component {
 
    
 
-  // var skillmessage = resume.skillmessage;
   var projectDetails = resume.project.map(function(project){
     console.log("project",projectDetails)
     return <div key={project.title}><h3>{project.title}</h3>
@@ -48,19 +45,20 @@ class Project extends Component {
     return (
       <section id="project">
 
-      <div className="row ">
+      <div className="row project">
+         <div className="three columns header-col">
+            <h1><span>PROJECTS</span></h1>
+         </div>
 
-         <div className="twelve columns collapsed">
-
-           <center> <h2>Check Out Some of My Project Description.</h2></center>
-
-            <div id="project-wrapper" className="bgrid-quarters s-bgrid-thirds cf">
-              <h1>PROJECTS</h1>
-                {projectDetails}
+         <div className="nine columns main-col">
+            <div className="row item">
+               <div className="twelve columns">
+                 {projectDetails}
+               </div>
             </div>
-          </div>
-      </div>
-   </section>
+         </div>
+        </div>
+      </section>
     );
   }
 }

@@ -33,37 +33,27 @@ class Resume extends Component {
   var skills = [
     {
       "name":"Git",
-      "level":"40%"
     },
 
     {
       "name":"ReactJs",
-      "level":"50%"
     },
     {
       "name":"CSS",
-      "level":"90%"
     },
     {
       "name":"HTML5",
-      "level":"10%"
     },
-    
     
     {
       "name":"Python",
-      "level":"40%"
     },
 
     {
       "name":"Javascript",
-      "level":"60%"
     }
   ]
-
-
-    
-
+  
     if(resume){
       var skillmessage = resume.skillmessage;
       var education = resume.education.map(function(education){
@@ -72,16 +62,9 @@ class Resume extends Component {
         <p className="info">{education.degree} <span>&bull;</span><em className="date">{education.graduated}</em></p>
         <p>{education.description}</p></div>
       })
-      // var work = this.props.data.work.map(function(work){
-      //   return <div key={work.company}><h3>{work.company}</h3>
-      //       <p className="info">{work.title}<span>&bull;</span> <em className="date">{work.years}</em></p>
-      //       <p className="newline">{work.description}</p>
-      //   </div>
-      // })
+    
       var skills = skills.map(function(skills){
-      // var projectImage = 'images/tech/'+skills.image;
         return <div key={skills.name} className="columns feature-item">
-             {/* <img className='skill' alt={skills.name} src={projectImage} /> */}
            <h5>{skills.name}</h5>
        <p>{skills.description}</p>
        </div>
@@ -105,24 +88,13 @@ class Resume extends Component {
          </div>
       </div>
 
-
-
-
-
-
-      <div className="row skill">
-
-         <div className="three columns header-col">
+      <div className="tech">
             <h1><span>Favorite Tech</span></h1>
-         </div>
-
-         <div>
-           {/* <div className="nine columns main-col"><p className="lead center">{skillmessage}</p></div> */}
-				   <ul className="bgrid-quarters s-bgrid-thirds cf">
-					  {skills}
-					 </ul>
-			  </div>
       </div>
+      <div className="skill">
+            {skills}
+         </div>
+         
    </section>
     );
   }

@@ -3,23 +3,9 @@ import imageP from './displaypicture.jpg'
 
 class About extends Component {
   render() {
-
-    if(this.props.data){
-      var name = this.props.data.name;
-      // var profilepic="./displaypicture.jpg"
-      var bio = this.props.data.bio;
-      var street = this.props.data.address.street;
-      var city = this.props.data.address.city;
-      var state = this.props.data.address.state;
-      var zip = this.props.data.address.zip;
-      var phone= this.props.data.phone;
-      var email = this.props.data.email;
-      var resumeDownload = this.props.data.resumedownload;
-    }
     return (
-     
       <section id="about">
-         
+      
       <div className="row">
          <div className="three columns">
          <img className="profile-pic" src={imageP} alt="Wahids Display Picture" />
@@ -29,10 +15,12 @@ class About extends Component {
             <h2>About Me</h2>
 
             <p>To work in a firm with a professional work driven environment where I can utilize and apply my knowledge, skills and enhance my experience through continuous learning which would enable me as a fresh graduate to grow while fulfilling organizational goals.</p>
-            <div className="row">
-               <div className="columns contact-details">
-                  <h2>Contact Details</h2>
-                  <p className="address">
+            <br/>
+            <br/>
+               <div className="row">
+                  <div className="columns contact-details">
+                     <h2>Contact Details</h2>
+                  <p className="info">
 						   <span>Masajid Galli Halasi Khanapur</span><br />
 						   <span>Belagavi<br />
 						   <span>Karnataka</span>
@@ -41,11 +29,7 @@ class About extends Component {
                      <span>abdulwahid0218@gmail.com</span>
 					   </p>
                </div>
-               {/* <div className="columns download">
-                  <p>
-                     <a href={resumeDownload} className="button"><i className="fa fa-download"></i>Download Resume</a>
-                  </p>
-               </div> */}
+               
             </div>
          </div>
       </div>

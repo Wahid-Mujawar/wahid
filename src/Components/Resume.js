@@ -32,7 +32,7 @@ class Resume extends Component {
   
   var skills = [
     {
-      "name":"Git",
+      "name":"GitHub",
     },
 
     {
@@ -51,6 +51,12 @@ class Resume extends Component {
 
     {
       "name":"Javascript",
+    },
+    {
+      "name":"C",
+    },
+    {
+      "name":"MySql",
     }
   ]
   
